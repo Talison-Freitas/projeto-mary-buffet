@@ -1,0 +1,18 @@
+.header-bg {
+  background-color: #A60321;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+  color: #fff;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.3rem;
+}
