@@ -1,0 +1,44 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ponto {
+  color: #FEBA13;
+}
+.botao {
+  background-color: #FEBA13;
+  color:#3b2c06;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0);
+  max-width: max-content;
+}
+.botao:hover {
+  background-color:#f3b312;
+}
+.botao.seta {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.botao.seta::after {
+  content: "";
+  background: url("../../img/icones/seta.svg");
+  width: 18px;
+  height: 10px;
+  display: block;
+  margin-left: 12px;
+}
+.botao.seta:hover::after {
+  transform: translateX(4px);
+  transition: 0.3s;
+}
