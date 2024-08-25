@@ -3,6 +3,7 @@
 
 /* Home */
 @import "../css/home/introducao.css";
+@import "../css/home/cardapio.css";
 
 /* Componentes */
 @import "../css/utilidades/componentes.css";
