@@ -5,20 +5,57 @@
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  gap: 40px;
   color: #fff;
-  align-items: start;
-  padding-top: 60px;
   margin-bottom: 60px;
+  align-items: center;
 }
 .introducao h1 {
-  font-size: 3.2rem;
+  font-size: 3rem;
   margin-bottom: 40px;
-  padding-top: 60px;
 }
 .introducao p {
   margin-bottom: 40px;
 }
 .introducao img {
   border-radius: 80px;
+  min-height: 500px;
+  object-fit: cover;
+  margin-top: 60px;
+}
+
+@media (max-width:1200px) {
+  .introducao {
+    gap: 20px;
+  }
+  .introducao h1 {
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+  }
+  .introducao p {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width:800px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+  }
+  .introducao img {
+    width: 100%;
+    object-position: center -160px ;
+    min-height: initial;
+    height: 350px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:700px) {
+  .introducao img {
+    width: 100%;
+    object-position: center;
+  }
+
 }
