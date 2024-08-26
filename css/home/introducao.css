@@ -57,5 +57,10 @@
     width: 100%;
     object-position: center;
   }
-
+}
+@media (max-width:500px) {
+  .introducao img {
+    height: 250px;
+    border-radius: 60px;
+  }
 }
