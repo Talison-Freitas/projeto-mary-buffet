@@ -10,6 +10,9 @@
 .ponto {
   color: #FEBA13;
 }
+.ponto.vermelho {
+  color: #A60321;
+}
 .botao {
   background-color: #FEBA13;
   color:#3b2c06;
