@@ -29,6 +29,7 @@
 .unidades-local li h3 {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 .unidades-local li h3::before {
   content: "";
