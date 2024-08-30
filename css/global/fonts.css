@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Argentum Sans";
-  src: url("argentum-sans.regular") format("ttf");
+  src: url('../../fontes/argentum-sans.regular.ttf') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Argentum Sans";
-  src: url("argentum-sans.bold") format("ttf");
+  src: url('../../fontes/argentum-sans.bold.ttf') format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "Argentum Sans";
-  src: url("argentum-sans.light") format("ttf");
-  font-weight: lighter;
-  font-style: normal;
+  src: url('../../fontes/argentum-sans.light.ttf') format("truetype");
+  font-weight:100;
+  font-style:normal;
 }
