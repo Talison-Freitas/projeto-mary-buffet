@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Argentum Sans";
+  src: url("../../fontes/argentum-sans.regular.ttf") format(".ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Argentum Sans";
+  src: url("../../fontes/argentum-sans.bold.ttf") format(".ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Argentum Sans";
+  src: url("../../fontes/argentum-sans.light.ttf") format(".ttf");
+  font-weight: lighter;
+  font-style: normal;
+}
