@@ -1,17 +1,29 @@
 @font-face {
+<<<<<<< HEAD
   font-family: Argentum Sans;
+=======
+  font-family: "Argentum Sans";
+>>>>>>> ac2422f267ea1dcef4dcd76fce19425923e4e9a8
   src: url("../../fontes/argentum-sans.regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
+<<<<<<< HEAD
   font-family: Argentum Sans;
+=======
+  font-family: "Argentum Sans";
+>>>>>>> ac2422f267ea1dcef4dcd76fce19425923e4e9a8
   src: url("../../fontes/argentum-sans.bold.ttf") format("ttf");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
+<<<<<<< HEAD
   font-family: Argentum Sans;
+=======
+  font-family: "Argentum Sans";
+>>>>>>> ac2422f267ea1dcef4dcd76fce19425923e4e9a8
   src: url("../../fontes/argentum-sans.light.ttf") format("ttf");
   font-weight: lighter;
   font-style: normal;
