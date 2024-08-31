@@ -98,7 +98,7 @@
     margin-top: 7px;
   }
   #nav.active #hamburger {
-    border-top-color: transparent;
+    background-color: transparent;
   }
   #nav.active #hamburger::before {
     transform: rotate(135deg);
@@ -106,6 +106,6 @@
   }
   #nav.active #hamburger::after {
     transform: rotate(-135deg);
-    top: -8px;
+    top: -7px;
   }
 }
