@@ -75,7 +75,7 @@
     border-radius: 8px;
   }
   #hamburger{
-    margin-top: 5px;
+    margin-top: 4px;
     width: 22px;
     height: 2px;
     display: block;
@@ -89,12 +89,12 @@
     border-radius: 2px;
     background-color: currentColor;
     display: block;
-    margin-top: 4px;
+    margin-top: 5px;
     transition: .3s;
     position: relative;
   }
   #hamburger::before {
-    margin-top: 6px;
+    margin-top: 7px;
   }
   #nav.active #hamburger {
     border-top-color: transparent;
