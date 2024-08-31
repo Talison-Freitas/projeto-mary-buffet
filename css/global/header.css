@@ -63,7 +63,7 @@
   #btnMobile{
     display: flex;
     padding: 10px 20px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     align-items: center;
     font-family: "Argentum Sans", sans-serif;
     border: none;
@@ -75,14 +75,14 @@
     border-radius: 8px;
   }
   #hamburger{
-    border-top: 3px solid;
+    border-top: 2px solid;
     width: 22px;
-    border-radius: 2px;
+    border-radius: 2px 2px 2px 2px;
   }
   #hamburger::after, #hamburger::before {
     content: "";
     width: 22px;
-    height: 3px;
+    height: 2px;
     border-radius: 2px;
     background-color: currentColor;
     display: block;
