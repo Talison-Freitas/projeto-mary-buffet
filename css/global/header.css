@@ -15,8 +15,8 @@
   display: flex;
   color: #fff;
   font-family: "Argentum Sans", sans-serif;
-  font-size: 1.5rem;
-  gap: 60px;
+  font-size: 1.3rem;
+  gap: 40px;
 }
 .header-menu a::after {
   content: "";
