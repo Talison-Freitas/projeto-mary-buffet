@@ -13,8 +13,9 @@
   <header class="header-bg">
     <div class="header container">
       <div><img src="./img/logo.svg" alt=""></div>
-      <nav aria-label="primaria">
-        <ul class="header-menu">
+      <nav aria-label="primaria" id="nav">
+        <button aria-label="Abrir Menu" id="btnMobile" aria-expanded="false" aria-controls="menu" aria-haspopup="true">MENU<span id="hamburger"></span></button>
+        <ul class="header-menu" id="menu" role="menu">
           <li><a href="./">Cardápio</a></li>
           <li><a href="./">Eventos</a></li>
           <li><a href="./">Contato</a></li>
@@ -140,6 +141,7 @@
     </div>
 
   </footer>
+  <script src="./script/script.js"></script>
 </body>
 
 </html>
