@@ -4,10 +4,8 @@
 .unidades {
   color: #fff;
 }
-.unidades h2 {
-  font-size: 3rem;
+.unidades .subtitulo {
   padding-top: 40px;
-  padding-bottom: 20px;
 }
 .unidades-local {
   display: flex;
@@ -51,9 +49,6 @@
 }
 
 @media (max-width: 850px) {
-  /* .unidades-local {
-    gap: 40px;
-  } */
   .unidades-local li:nth-child(2) {
     border-right: none;
   }
