@@ -64,3 +64,21 @@
     border-radius: 60px;
   }
 }
+.introducao-conteudo{
+  opacity: 0;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+  transform: translateX(-20px);
+}
+.introducao-imagem {
+  opacity: 0;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+  transform: translateX(20px);
+}
+.introducao-imagem.surgeDireita {
+  opacity: 1;
+  transform: translateX(0px);
+}
+.introducao-conteudo.surgeEsquerda {
+  opacity: 1;
+  transform: translateX(0px);
+}
