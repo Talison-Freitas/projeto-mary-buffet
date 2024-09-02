@@ -52,8 +52,12 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .subtitulo {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+  .botao {
+    font-size: 1rem;
+    padding: 5px 10px;
   }
 }
