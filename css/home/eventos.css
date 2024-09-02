@@ -1,6 +1,6 @@
 .eventos-bg {
   background-color: #A60321;
-  box-shadow: inset 0 -80px #fff, inset 0 80px #fff;;
+  box-shadow: inset 0 -60px #fff, inset 0 60px #fff;;
 }
 
 .eventos {
@@ -10,7 +10,7 @@
   color: #fff;
 }
 .eventos .subtitulo {
-  padding-top: 120px;
+  padding-top: 100px;
 }
 .eventos img {
   object-fit: cover;
@@ -39,6 +39,20 @@
   width: 24px;
   height: 24px;
 }
+.eventos .botao {
+  margin-top: 60px;
+}
+@media (max-width:1000px) {
+  .eventos-lista {
+    padding-top: 10px;
+  }
+  
+  .eventos .botao {
+    margin-top: 40px;
+    justify-items: center;
+  }
+}
+
 @media (max-width:800px) {
   .eventos-bg {
     box-shadow: initial;
