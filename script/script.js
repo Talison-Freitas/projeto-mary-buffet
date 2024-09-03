@@ -16,14 +16,18 @@ event.currentTarget.setAttribute('aria-label', 'Abrir Menu')}
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 
+
 // Animação após carregamento
 
 function apareceElemento() {
   const introducaoConteudo = document.querySelector(".introducao-conteudo");
+  if (introducaoConteudo){
   introducaoConteudo.classList.add("surgeEsquerda");
+  }
   const introducaoImagem = document.querySelector(".introducao-imagem");
+if (introducaoImagem) {
   introducaoImagem.classList.add("surgeDireita");
-
+}
 }
 
 window.addEventListener('load', apareceElemento);
