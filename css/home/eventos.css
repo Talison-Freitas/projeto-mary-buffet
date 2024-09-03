@@ -6,7 +6,6 @@
 .eventos {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-  margin-bottom: 100px;
   color: #fff;
 }
 .eventos .subtitulo {
@@ -25,8 +24,9 @@
 }
 .eventos-lista {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))  ;
   padding-top: 20px;
+  gap: 10px;
 }
 .eventos-lista li {
   display: flex;
