@@ -1,7 +1,10 @@
-.destaques-bg .subtitulo {
+.destaques-bg {
+  background-color: #fff;
+}
+.destaques .subtitulo {
   color: #feba13;;
 }
-.destaques {
+.destaques-lista {
   display: flex;
   gap: 60px;
   color: #fff;
@@ -9,24 +12,24 @@
   margin-bottom: 100px;
   padding-bottom: 20px;
 }
-.destaques li {
+.destaques-lista li {
   flex: 1;
   background-color: #A60321;
   border-radius: 8px;
 }
-.destaques img {
+.destaques-lista img {
   min-width: 300px;
   border-radius: 8px 8px 0 0;
 }
-.destaques p {
+.destaques-lista p {
   padding:  0 10px 10px 10px;
 }
-.destaques h3 {
+.destaques-lista h3 {
   padding:10px;
   display: flex;
   align-items: center;
 }
-.destaques li h3::before {
+.destaques-lista li h3::before {
   content: "";
   width: 10px;
   height: 5px;
@@ -35,10 +38,10 @@
   margin-right: 5px;
   border-radius: 4px;
 }
-.destaques a:hover h3::before {
+.destaques-lista a:hover h3::before {
   width: 15px;
   transition: 0.3s;
 }
-.destaques span {
+.destaques-lista span {
   color: #feba13;
 }
