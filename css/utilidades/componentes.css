@@ -17,8 +17,8 @@
   background-color: #FEBA13;
   color:#3b2c06;
   font-family: "Argentum Sans", sans-serif;
-  font-size: 1.3rem;
-  border-radius: 8px;
+  font-size: 1.2rem;
+  border-radius: 4px;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -50,7 +50,9 @@
   color: #fff;
   margin-bottom: 20px;
 }
-
+.col2 {
+  grid-column: span 2;
+}
 
 @media (max-width: 1000px) {
   .subtitulo {
@@ -61,3 +63,9 @@
     padding: 5px 10px;
   }
 }
+
+/* @media (max-width:400px) {
+  .subtitulo {
+    font-size: 1.5rem;
+  }
+} */
