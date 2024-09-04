@@ -6,7 +6,6 @@
 /* Home */
 @import "../css/home/introducao.css";
 @import "../css/home/destaques.css";
-@import "../css/home/unidades.css";
 @import "../css/home/eventos.css";
 @import "../css/home/delivery.css";
 
@@ -15,4 +14,3 @@
 
 /* Página contato */
 @import "../css/contato/contato.css";
-@import "../css/contato/lojas.css";
