@@ -26,7 +26,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  align-self: center;
+  justify-content: space-between;
 }
 .footer-lista a {
   display: block;
@@ -41,7 +41,6 @@
 .footer-informacoes {
   display: grid;
   grid-template-columns: max-content auto auto;
-  justify-content: space-between;
   gap: 40px;
 }
 .footer-lojas {
@@ -70,13 +69,34 @@
 .lista-itens h4 + a {
   padding-top: 10px;
 }
+@media (max-width:1200px) {
+  .footer-lista:last-child {
+    margin-right: 35px;
 
+  }
+  .footer-lista {
+    margin-left: 35px;
+  }
+}
+@media (max-width: 970px) {
+  .footer-lista:last-child {
+    margin-right: initial;
+  }
+  .footer-lista {
+    margin-left: 70px;
+  }
+
+}
 @media (max-width: 800px) {
   .footer-informacoes {
     grid-template-columns: 1fr 1fr;
   }
   .footer-informacoes img {
     grid-column: 1/-1;
+  }
+  .footer-lista {
+    margin-left: initial;
+
   }
 }
 @media (max-width:500px) {
